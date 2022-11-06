@@ -1,0 +1,151 @@
+{
+  "account": {
+    "user": [
+      {
+        "name": "黃小花",
+        "imgurl" :"https://taiwan.com/uploadsimg/20220251.jpg",
+        "username" : "yelloflower1234",
+        "password" : "b12345678",
+        "email" : "yellow@yahoo.com.tw",
+        "type" : "旅客",
+        "history":[
+          {
+            "ordernum":1,
+            "orderdata":"2022-10-25",
+            "ordername":"木森木之家",
+            "checkIn":"2022-11-05",
+            "checkOut":"2022-11-07",
+            "days":"2天",
+            "orderAmount":3510
+          }
+        ],
+        "collect":[
+          {
+            "Id": "bnb-1",
+            "Name": "木森木之家"
+          },
+          {
+            "Id": "bnb-2",
+            "Name": "木森木之家"
+          }
+        ]
+      }
+    ],
+    "landlord": [
+      {
+        "name": "包租婆",
+        "imgurl" :"https://taiwan.com/uploadsimg/20220251.jpg",
+        "username" : "moneymoney3333",
+        "password" : "a66668888",
+        "email" : "money3333@gmail.com",
+        "type" : "旅客",
+        "type1" : "房東"
+      }
+    ]
+  },
+
+  "data" :{
+    "bnb":[
+      {
+        "info" :{
+          "Id": "bnb-1",
+          "Name": "木森木之家",
+          "landlord" : "sarye33",
+          "Description": "位於南投縣的民宿",
+          "Region": "南投縣",
+          "Town": "埔里鎮",
+          "Add": "南投縣埔里鎮水頭里水頭路1號",
+          "Tel": "886-49-2927101",
+          "IndustryEmail": "sss050021@yahoo.com.tw"
+        },
+        "facilities" :{
+          "Serviceinfo": "無線網路,國民旅遊卡,停車場,,,,室內遊樂設施,,",
+          "Parkinginfo": "車位:小客車2輛、機車0輛、大客車0輛"
+        },
+        "Picture" :{
+          "Picture1": "https://taiwan.taiwanstay.net.tw/twpic/14921.jpg",
+          "Picdescribe1": "房間3",
+          "Picture2": "https://taiwan.taiwanstay.net.tw/twpic/46702.jpg",
+          "Picdescribe2": "房間2",
+          "Picture3": "https://taiwan.taiwanstay.net.tw/twpic/41144.jpg",
+          "Picdescribe3": "大廳或櫃檯"
+        },
+        "Price" :{
+          "Spec": "套房5400;雙人房2200;套房4000;",
+          "LowestPrice": 2200,
+          "CeilingPrice": 3600,
+          "TotalNumberofRooms": 3,
+          "TotalNumberofPeople": 10
+        }
+      }
+    ],
+
+    "hostel":[
+      {
+        "info" :{
+          "Id": "C4_315080000H_000008",
+          "Name": "思源居民宿",
+          "Description": "位於南投縣的民宿",
+          "Region": "南投縣",
+          "Town": "埔里鎮",
+          "Add": "南投縣埔里鎮水頭里水頭路1號",
+          "Tel": "886-49-2927101",
+          "IndustryEmail": "sss050021@yahoo.com.tw"
+        },
+        "facilities" :{
+          "Serviceinfo": "無線網路,國民旅遊卡,停車場,,,,室內遊樂設施,,",
+          "Parkinginfo": "車位:小客車2輛、機車0輛、大客車0輛"
+        },
+        "Picture" :{
+          "Picture1": "https://taiwan.taiwanstay.net.tw/twpic/14921.jpg",
+          "Picdescribe1": "房間3",
+          "Picture2": "https://taiwan.taiwanstay.net.tw/twpic/46702.jpg",
+          "Picdescribe2": "房間2",
+          "Picture3": "https://taiwan.taiwanstay.net.tw/twpic/41144.jpg",
+          "Picdescribe3": "大廳或櫃檯"
+        },
+        "Price" :{
+          "Spec": "套房5400;雙人房2200;套房4000;",
+          "LowestPrice": 2200,
+          "CeilingPrice": 3600,
+          "TotalNumberofRooms": 3,
+          "TotalNumberofPeople": 10
+        }
+      },
+      {
+        "info" :{
+          "Id": "C4_315080000H_000008",
+          "Name": "思源居民宿",
+          "Description": "位於南投縣的民宿",
+          "Region": "南投縣",
+          "Town": "埔里鎮",
+          "Add": "南投縣埔里鎮水頭里水頭路1號",
+          "Tel": "886-49-2927101",
+          "IndustryEmail": "sss050021@yahoo.com.tw"
+        },
+        "facilities" :{
+          "Serviceinfo": "無線網路,國民旅遊卡,停車場,,,,室內遊樂設施,,",
+          "Parkinginfo": "車位:小客車2輛、機車0輛、大客車0輛"
+        },
+        "Picture" :{
+          "Picture1": "https://taiwan.taiwanstay.net.tw/twpic/14921.jpg",
+          "Picdescribe1": "房間3",
+          "Picture2": "https://taiwan.taiwanstay.net.tw/twpic/46702.jpg",
+          "Picdescribe2": "房間2",
+          "Picture3": "https://taiwan.taiwanstay.net.tw/twpic/41144.jpg",
+          "Picdescribe3": "大廳或櫃檯"
+        },
+        "Price" :{
+          "Spec": "套房5400;雙人房2200;套房4000;",
+          "LowestPrice": 2200,
+          "CeilingPrice": 3600,
+          "TotalNumberofRooms": 3,
+          "TotalNumberofPeople": 10
+        }
+      }
+    ]
+  }
+  
+
+  
+}
