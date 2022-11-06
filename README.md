@@ -27,7 +27,8 @@
 [Figma連結](https://www.figma.com/file/0LcZ1Dn6qx5v6UWZZ7iTeX/Side-project---B-%26-B-%E7%9F%AD%E6%9C%9F%E5%87%BA%E7%A7%9F%2F-%E6%B0%91%E5%AE%BF%E7%B6%B2?node-id=13%3A4)
 
 ## 設計稿 Mockup
-[Figma連結]https://www.figma.com/file/0LcZ1Dn6qx5v6UWZZ7iTeX/Side-project---B-%26-B-%E7%9F%AD%E6%9C%9F%E5%87%BA%E7%A7%9F%2F-%E6%B0%91%E5%AE%BF%E7%B6%B2?node-id=21%3A2
+[Figma連結](https://www.figma.com/file/0LcZ1Dn6qx5v6UWZZ7iTeX/Side-project---B-%26-B-%E7%9F%AD%E6%9C%9F%E5%87%BA%E7%A7%9F%2F-%E6%B0%91%E5%AE%BF%E7%B6%B2?node-id=21%3A2)
+![](https://i.imgur.com/OCyDBmU.jpg)
 
 
 *contant us* 
