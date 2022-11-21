@@ -4,7 +4,8 @@
 
 @layer base{
   body{
-    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Noto Serif TC', serif;
+    font-weight: 400;
   }
   h1{
     font-size: 24px;
@@ -13,4 +14,13 @@
     font-size: 32px;
   }
 
+}
+
+
+@layer components {
+  /*自組元件*/
+}
+
+@layer utilities{
+  /*自組樣式*/
 }

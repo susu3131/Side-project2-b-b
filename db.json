@@ -1,9 +1,14 @@
+// JSON 規定 第一個一定要陣列
+// 民宿資料混再一起 增加TYPE
+// USERS ID 
+
 {
   "account": {
     "user": [
       {
         "name": "黃小花",
         "imgurl" :"https://taiwan.com/uploadsimg/20220251.jpg",
+        "userId" : "1",
         "username" : "yelloflower1234",
         "password" : "b12345678",
         "email" : "yellow@yahoo.com.tw",
