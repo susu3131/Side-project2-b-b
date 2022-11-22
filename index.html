@@ -9,7 +9,7 @@
     首頁
   </title>
   <link rel="stylesheet" href="./assets/style/all.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;500;600;700;900&display=swap"
     rel="stylesheet">
 </head>
@@ -17,10 +17,17 @@
 <body>
   <header class="container header pt-4  flex justify-between items-center">
     <img src="./assets/images/logo.png" width="50" alt="">
-    <div class="flex text-xl font-semibold  items-center">
-      <i class="fa-solid fa-circle-user mr-2"></i>
-      <p>Login</p>
+    <div class="flex">
+      <button class="btn-join hidden md:block mr-3">註冊/加入</button>
+      <button class="btn-join-1 hidden md:block ">成為房東</button>
+
+      <div class="flex text-xl font-semibold  items-center ml-8">
+        <i class="fa-solid fa-circle-user mr-2"></i>
+        <p>Login</p>
+      </div>
     </div>
+
+
   </header>
 
   
@@ -29,47 +36,52 @@
 <a href="./index copy 2.html"> link2</a>
 
     <footer class="footer container">
+      <!-- logo       -->
       <div class="flex justify-between items-center">
         <img src="./assets/images/logo.png" width="40" alt="">
-        <div class="flex">
-          <i class="fa-solid fa-circle-user mr-2"></i>
-          <i class="fa-solid fa-circle-user mr-2"></i>
-          <i class="fa-solid fa-circle-user mr-2"></i>
+        <div class="flex text-xl text-primary">
+          <i class="fa-brands fa-facebook mr-2"></i>
+          <i class="fa-solid fa-envelope  mr-2"></i>
+          <i class="fa-brands fa-instagram"></i>
         </div>
       </div>
-      <div class="flex  justify-between">
-        <ul>
+      <!-- 連結區塊 -->
+      <div class="md:flex  sm:justify-between mt-2">
+        <ul class="hidden md:block">
           <li>全台最齊全、最優質的民宿</li>
           <li>熱門地點搜尋</li>
           <li>五星評分系統</li>
           <li>精選民宿推薦</li>
           <li>加入賺取額外收入</li>
         </ul>
-        <div class="ul list-none flex">
-          <li >
-            <p class="text-xl font-semibold">加入我們</p>
-            <a class="block" href="">註冊會員</a>
-            <a class="block" href="">成為房東</a>
+        <ul class="list-none flex justify-between">
+          <li class="text-sm">
+            <p class="text-lg font-semibold">加入我們</p>
+            <a class="block text-light" href="">註冊會員</a>
+            <a class="block text-light" href="">成為房東</a>
           </li>
-          <li >
-            <p class="text-xl font-semibold">加入我們</p>
-            <a class="block" href="">註冊會員</a>
-            <a class="block" href="">成為房東</a>
+          <li class="text-sm">
+            <p class="text-lg font-semibold">會員中心</p>
+            <a class="block text-light" href="">註冊/加入</a>
+            <a class="block text-light" href="">登入</a>
+            <a class="block text-light" href="">訂房紀錄</a>
+            <a class="block text-light" href="">收藏民宿</a>
           </li>
-          <li >
-            <p class="text-xl font-semibold">加入我們</p>
-            <a class="block" href="">註冊會員</a>
-            <a class="block" href="">成為房東</a>
+          <li class="text-sm">
+            <p class="text-lg font-semibold">房東中心</p>
+            <a class="block text-light" href="">出租民宿</a>
+            <a class="block text-light" href="">房源管理</a>
           </li>
-          <li >
-            <p class="text-xl font-semibold">加入我們</p>
-            <a class="block" href="">註冊會員</a>
-            <a class="block" href="">成為房東</a>
+          <li class="text-sm">
+            <p class="text-lg font-semibold">客服中心</p>
+            <a class="block text-light" href="">問與答 QA</a>
+            <a class="block text-light" href="">聯繫我們</a>
           </li>
-        </div>
+        </ul>
       </div>
-
-
+      <!-- hr補充 -->
+      <hr class="border-primary mt-4">
+      <p class="text-sm my-2">此網站僅做為前端 Side Project 作品，無營利用途</p>
     </footer>
     <script src="./assets/js/vendors.js"></script>
     <script src="./assets/js/all.js"></script>
