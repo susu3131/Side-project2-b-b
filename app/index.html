@@ -5,18 +5,18 @@ engine: ejs
 current: index
 ---
 
-<div class=" flex justify-center items-center " style="background-image:url(./assets/images/bannersm.jpg) ;">
+<div class="h-vh70 lg:h-vh90 flex justify-center items-center -mt-12" style="background-image:url(./assets/images/bannersm.jpg) ;">
   <div class="container ">
     <!-- btn -->
     <div class="flex  justify-end mb-5">
-      <div class="btn ">
+      <div class="btn md:hidden">
         <button class="btn-join-1 bg-white text-black  block mb-3">註冊/加入</button>
         <button class="btn-join-1 w-full mb-3">成為房東</button>
       </div>
     </div>
     <div class="text-center">
       <img class="mx-auto mb-3" src="./assets/images/logowhite.png" width="60" alt="">
-      <h1 class="text-white font-bold">全台最優質Bnb民宿 訂房自租輕鬆簡單</h1>
+      <h1 class="text-white text-18 lg:text-40">全台最優質Bnb民宿 訂房自租輕鬆簡單</h1>
     </div>
     <!-- 搜尋 -->
     <div class="bg-white text-2xl flex items-center p-2 rounded-[30px] justify-between">
@@ -44,50 +44,80 @@ current: index
   </div>
 </div>
 
-<div class="container">
-  <h2>精選民宿</h2>
-  <div class="flex justify-between">
-    <div class="text">
-      <p>查看特色精選民宿</p>
-      <p class="hidden md:block">Featured homes recommended for you</p>
+<div class="container ">
+  <!-- 精選民宿 -->
+  <div class="mb-6 mt-12">
+    <h2>精選民宿</h2>
+    <div class="flex justify-between">
+      <div class="text-light">
+        <p>查看特色精選民宿</p>
+        <p class="hidden md:block">Featured homes recommended for you</p>
+      </div>
+      <div class="flex items-center">
+        <i class="fa-solid fa-shuffle mr-3"></i>
+        <p>隨機顯示</p>
+      </div>
     </div>
-    <div class="flex">
-      <i class="fa-solid fa-shuffle"></i>
-      <p>隨機顯示</p>
+  </div>
+  <div class="sm:grid grid-cols-12  gap-6 ">
+    <div class="box sm:col-span-6 lg:col-span-3 mb-4 ">
+      <img class="rounded-3xl" src="./assets/images/house (1).jpg" alt="">
+      <div class="flex items-center justify-center text-20 mt-3">
+        <i class="fa-regular fa-heart mr-3 "></i>
+        <p>收藏</p>
+      </div>
+    </div>
+    <div class="box sm:col-span-6 lg:col-span-3  mb-4">
+      <img class="rounded-3xl" src="./assets/images/house (2).jpg" alt="">
+      <div class="flex items-center justify-center text-20 mt-3">
+        <i class="fa-regular fa-heart mr-3 "></i>
+        <p>收藏</p>
+      </div>
+    </div>
+    <div class="box sm:col-span-6 lg:col-span-3  mb-4">
+      <img class="rounded-3xl" src="./assets/images/house (3).jpg" alt="">
+      <div class="flex items-center justify-center text-20 mt-3">
+        <i class="fa-regular fa-heart mr-3 "></i>
+        <p>收藏</p>
+      </div>
+    </div>
+    <div class="box sm:col-span-6 lg:col-span-3 ">
+      <img class="rounded-3xl" src="./assets/images/house (4).jpg" alt="">
+      <div class="flex items-center justify-center text-20 mt-3">
+        <i class="fa-regular fa-heart mr-3 "></i>
+        <p>收藏</p>
+      </div>
     </div>
   </div>
 
-  <!-- 民宿區塊 -->
-  <div class="md:flex flex-wrap">
-    <div class="box md:w-1/2 lg:w-1/4">
-      <img class="rounded-3xl" src="./assets/images/house (1).jpg" alt="">
-      <div class="flex items-center justify-center text-20 mt-3">
-        <i class="fa-regular fa-heart mr-3 "></i>
-        <p>收藏</p>
-      </div>
+  <!-- 熱門地點 -->
+  <div class="mb-6 text-center mt-12">
+    <h2>熱門地點</h2>
+    <div class="text-light">
+      <p>台灣熱門地點</p>
+      <p class="hidden md:block">Featured homes recommended for you</p>
     </div>
-    <div class="box md:w-1/2 lg:w-1/4">
-      <img class="rounded-3xl" src="./assets/images/house (1).jpg" alt="">
-      <div class="flex items-center justify-center text-20 mt-3">
-        <i class="fa-regular fa-heart mr-3 "></i>
-        <p>收藏</p>
-      </div>
+  </div>
+  <div class="sm:grid grid-cols-12  gap-6 ">
+    <div class="box sm:col-span-6 lg:col-span-3 mb-4 text-center">
+      <img class="rounded-full mx-auto mb-3" src="./assets/images/Place (1).jpg" alt="" width="300">
+      <p class="text-primary text-20">墾丁</p>
+      <p class="text-light">235 間住宿</p>
     </div>
-    <div class="box md:w-1/2 lg:w-1/4">
-      <img class="rounded-3xl" src="./assets/images/house (1).jpg" alt="">
-      <div class="flex items-center justify-center text-20 mt-3">
-        <i class="fa-regular fa-heart mr-3 "></i>
-        <p>收藏</p>
-      </div>
+    <div class="box sm:col-span-6 lg:col-span-3 mb-4 text-center">
+      <img class="rounded-full mx-auto mb-3" src="./assets/images/Place (2).jpg" alt="" width="300">
+      <p class="text-primary text-20">淡水</p>
+      <p class="text-light">523 間住宿</p>
     </div>
-    <div class="box md:w-1/2 lg:w-1/4">
-      <img class="rounded-3xl" src="./assets/images/house (1).jpg" alt="">
-      <div class="flex items-center justify-center text-20 mt-3">
-        <i class="fa-regular fa-heart mr-3 "></i>
-        <p>收藏</p>
-      </div>
+    <div class="box sm:col-span-6 lg:col-span-3 mb-4 text-center">
+      <img class="rounded-full mx-auto mb-3" src="./assets/images/Place (3).jpg" alt="" width="300">
+      <p class="text-primary text-20">阿里山</p>
+      <p class="text-light">783 間住宿</p>
+    </div>
+    <div class="box sm:col-span-6 lg:col-span-3  text-center">
+      <img class="rounded-full mx-auto mb-3" src="./assets/images/Place (4).jpg" alt="" width="300">
+      <p class="text-primary text-20">澎湖</p>
+      <p class="text-light">345 間住宿</p>
     </div>
   </div>
 </div>
-
-

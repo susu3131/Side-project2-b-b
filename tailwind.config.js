@@ -2,14 +2,19 @@ module.exports = {
   content: ["./app/**/*.{html,ejs,js}"],
   theme: {
     //theme 下覆蓋原tailwind樣式
+    screens: {
+      'sm': '640px',
+      'md': '768px',
+      'lg': '992px',
+      'xl': '1280px',
+      '2xl': '1440px',
+    },
+
     container: {
       center: true,
+      //修改container 尺寸大小
       padding: {
         DEFAULT: '1rem',
-        sm: '2rem',
-        lg: '4rem',
-        xl: '5rem',
-        '2xl': '6rem',
       }
     },
     extend: {
@@ -34,6 +39,12 @@ module.exports = {
         18: '18px',
         16: '16px',
         14: '14px',
+      },
+      height: {
+        'vh50': '50vh',
+        'vh70': '70vh',
+        'vh80': '80vh',
+        'vh90': '90vh',
       }
     },
   },
