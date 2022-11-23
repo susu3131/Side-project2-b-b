@@ -590,6 +590,12 @@ select {
   h4 {
   font-size: 20px;
 }
+  a {
+  display: block;
+}
+  /* img{
+    @apply block object-cover max-w-full
+  } */
 
 *, ::before, ::after {
   --tw-translate-x: 0;
@@ -842,6 +848,12 @@ select {
   --tw-bg-opacity: 1;
   background-color: rgb(238 246 250 / var(--tw-bg-opacity));
 }
+.bg-index-banner-sm {
+  background-image: url('/assets/images/bannersm.jpg');
+}
+.bg-cover {
+  background-size: cover;
+}
 .p-2 {
   padding: 0.5rem;
 }
@@ -917,7 +929,6 @@ select {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
 }
-/*自組樣式*/
 @media (min-width: 640px) {
 
   .sm\:col-span-6 {
@@ -956,6 +967,10 @@ select {
 
   .md\:rounded-br-\[100px\] {
     border-bottom-right-radius: 100px;
+  }
+
+  .md\:bg-index-banner {
+    background-image: url('/assets/images/banner.jpg');
   }
 }
 @media (min-width: 992px) {
