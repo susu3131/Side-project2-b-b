@@ -19,7 +19,12 @@
   h4{
     @apply text-20
   }
-
+  a{
+    @apply block
+  }
+  /* img{
+    @apply block object-cover max-w-full
+  } */
 }
 
 
@@ -36,5 +41,5 @@
 }
 
 @layer utilities{
-  /*自組樣式*/
+
 }

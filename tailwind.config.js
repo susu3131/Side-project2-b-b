@@ -2,6 +2,7 @@ module.exports = {
   content: ["./app/**/*.{html,ejs,js}"],
   theme: {
     //theme 下覆蓋原tailwind樣式
+    
     screens: {
       'sm': '640px',
       'md': '768px',
@@ -45,6 +46,12 @@ module.exports = {
         'vh70': '70vh',
         'vh80': '80vh',
         'vh90': '90vh',
+      },
+      backgroundImage: {
+        'index-banner-sm': "url('/assets/images/bannersm.jpg')",
+        'index-banner': "url('/assets/images/banner.jpg')",
+        
+        
       }
     },
   },
