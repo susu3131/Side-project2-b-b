@@ -23,6 +23,18 @@ module.exports = {
         'light-blue': '#C1E1EF',//深藍
         'bg-color': '#EEF6FA', 
       },
+      fontSize: {
+        60: '60px',
+        48: '48px',
+        40: '40px',
+        32: '32px',
+        28: '28px',
+        24: '24px',
+        20: '20px',
+        18: '18px',
+        16: '16px',
+        14: '14px',
+      }
     },
   },
   plugins: [
