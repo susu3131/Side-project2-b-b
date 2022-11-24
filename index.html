@@ -16,7 +16,9 @@
 
 <body>
   <header class="container header pt-4  flex justify-between items-center pb-4">
-    <img src="./assets/images/logo.png" width="50" alt="">
+    <a class=" hover:animate-spin duration-300" href="index.html">
+      <img src="./assets/images/logo.png" width="50" alt="">
+    </a>
     <div class="flex">
       <button class="btn-join hidden md:block mr-3">註冊/加入</button>
       <button class="btn-join-1 hidden md:block ">成為房東</button>
@@ -32,7 +34,7 @@
 
   <div  class=" bg-bg-color  rounded-tl-[20px] rounded-br-[50px] md:rounded-tl-[100px] md:rounded-br-[100px] lg:rounded-tl-[130px] lg:rounded-br-[130px] py-12">
     
-<div class="h-vh70 lg:h-vh90 flex justify-center items-center -mt-12 md:bg-index-banner bg-index-banner-sm bg-cover" >
+<div class="h-vh70 lg:h-vh90 flex justify-center items-center -mt-12 md:bg-index-banner bg-index-banner-sm bg-cover">
   <div class="container ">
     <!-- btn -->
     <div class="flex  justify-end mb-5">
@@ -73,12 +75,17 @@
 
 <div class="container ">
   <!-- 精選民宿 -->
-  <div class="mb-6 mt-12">
-    <h2>精選民宿</h2>
+  <div class="mb-6 mt-12 md:flex justify-between ">
+    <div class="box md:flex items-center">
+      <h2>精選民宿</h2>
+      <div class="text-light pt-2 ml-5 hidden md:block">
+        <p class=" leading-none text-black font-semibold">查看特色精選民宿</p>
+        <p class=" leading-5">Featured homes recommended for you</p>
+      </div>
+    </div>
     <div class="flex justify-between">
       <div class="text-light">
-        <p>查看特色精選民宿</p>
-        <p class="hidden md:block">Featured homes recommended for you</p>
+        <p class="md:hidden ">查看特色精選民宿</p>
       </div>
       <div class="flex items-center">
         <i class="fa-solid fa-shuffle mr-3"></i>
@@ -86,6 +93,7 @@
       </div>
     </div>
   </div>
+
   <div class="sm:grid grid-cols-12  gap-6 ">
     <div class="box sm:col-span-6 lg:col-span-3 mb-4 ">
       <img class="rounded-3xl" src="./assets/images/house (1).jpg" alt="">
@@ -118,11 +126,11 @@
   </div>
 
   <!-- 熱門地點 -->
-  <div class="mb-6 text-center mt-12">
+  <div class="mb-6 text-center mt-12 md:text-left md:flex items-center ">
     <h2>熱門地點</h2>
-    <div class="text-light">
-      <p>台灣熱門地點</p>
-      <p class="hidden md:block">Featured homes recommended for you</p>
+    <div class="text-light md:pt-2 md:ml-5">
+      <p class="md:text-black md:font-semibold md:leading-none">台灣熱門地點</p>
+      <p class="hidden md:block leading-5">Top destinations in Taiwan</p>
     </div>
   </div>
   <div class="sm:grid grid-cols-12  gap-6 ">
@@ -155,44 +163,46 @@
   <footer class="footer container pt-4 pb-4">
     <!-- logo       -->
     <div class="flex justify-between items-center">
-      <img src="./assets/images/logo.png" width="40" alt="">
-      <div class="flex text-xl text-primary">
-        <i class="fa-brands fa-facebook mr-2"></i>
-        <i class="fa-solid fa-envelope  mr-2"></i>
-        <i class="fa-brands fa-instagram"></i>
+      <a class=" hover:animate-spin duration-300" href="index.html">
+        <img src="./assets/images/logo.png" width="45" alt="">
+      </a>
+      <div class="flex text-20 text-primary sm:text-24">
+        <i class="fa-brands fa-facebook mr-2 sm:mr-4 hover:scale-110 duration-300 hover:text-secondary"></i>
+        <i class="fa-solid fa-envelope  mr-2 sm:mr-4 hover:scale-110 duration-300 hover:text-secondary"></i>
+        <i class="fa-brands fa-instagram hover:scale-110 duration-300 hover:text-secondary"></i>
       </div>
     </div>
     <!-- 連結區塊 -->
-    <div class="md:flex  sm:justify-between mt-2">
-      <ul class="hidden md:block">
-        <li>全台最齊全、最優質的民宿</li>
-        <li>熱門地點搜尋</li>
-        <li>五星評分系統</li>
-        <li>精選民宿推薦</li>
+    <div class="md:flex  sm:justify-between mt-4 md:mt-6">
+      <ul class="hidden md:block ">
+        <li class="mb-1">全台最齊全、最優質的民宿</li>
+        <li class="mb-1">熱門地點搜尋</li>
+        <li class="mb-1">五星評分系統</li>
+        <li class="mb-1">精選民宿推薦</li>
         <li>加入賺取額外收入</li>
       </ul>
-      <ul class="list-none flex justify-between">
-        <li class="text-sm">
-          <p class="text-lg font-semibold">加入我們</p>
-          <a class="block text-light" href="">註冊會員</a>
-          <a class="block text-light" href="">成為房東</a>
+      <ul class="list-none flex justify-between sm:justify-end">
+        <li class="text-sm sm:mr-4">
+          <p class="text-lg font-semibold mb-2">加入我們</p>
+          <a class="text-light hover:scale-110 duration-300 hover:text-secondary" href="">註冊會員</a>
+          <a class="text-light hover:scale-110 duration-300 hover:text-secondary" href="">成為房東</a>
         </li>
-        <li class="text-sm">
-          <p class="text-lg font-semibold">會員中心</p>
-          <a class="block text-light" href="">註冊/加入</a>
-          <a class="block text-light" href="">登入</a>
-          <a class="block text-light" href="">訂房紀錄</a>
-          <a class="block text-light" href="">收藏民宿</a>
+        <li class="text-sm sm:mr-4">
+          <p class="text-lg font-semibold mb-2">會員中心</p>
+          <a class="text-light hover:scale-110 duration-300 hover:text-secondary" href="">註冊/加入</a>
+          <a class="text-light hover:scale-110 duration-300 hover:text-secondary" href="">登入</a>
+          <a class="text-light hover:scale-110 duration-300 hover:text-secondary" href="">訂房紀錄</a>
+          <a class="text-light hover:scale-110 duration-300 hover:text-secondary" href="">收藏民宿</a>
         </li>
-        <li class="text-sm">
-          <p class="text-lg font-semibold">房東中心</p>
-          <a class="block text-light" href="">出租民宿</a>
-          <a class="block text-light" href="">房源管理</a>
+        <li class="text-sm sm:mr-4">
+          <p class="text-lg font-semibold mb-2">房東中心</p>
+          <a class="text-light hover:scale-110 duration-300 hover:text-secondary" href="">出租民宿</a>
+          <a class="text-light hover:scale-110 duration-300 hover:text-secondary" href="">房源管理</a>
         </li>
-        <li class="text-sm">
-          <p class="text-lg font-semibold">客服中心</p>
-          <a class="block text-light" href="">問與答 QA</a>
-          <a class="block text-light" href="">聯繫我們</a>
+        <li class="text-sm ">
+          <p class="text-lg font-semibold mb-2">客服中心</p>
+          <a class="text-light hover:scale-110 duration-300 hover:text-secondary" href="">問與答 QA</a>
+          <a class="text-light hover:scale-110 duration-300 hover:text-secondary" href="">聯繫我們</a>
         </li>
       </ul>
     </div>
