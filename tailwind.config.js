@@ -2,7 +2,6 @@ module.exports = {
   content: ["./app/**/*.{html,ejs,js}"],
   theme: {
     //theme 下覆蓋原tailwind樣式
-    
     screens: {
       'sm': '640px',
       'md': '768px',
