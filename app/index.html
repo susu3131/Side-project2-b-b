@@ -5,7 +5,7 @@ engine: ejs
 current: index
 ---
 
-<div class="h-vh70 lg:h-vh90 flex justify-center items-center -mt-12 md:bg-index-banner bg-index-banner-sm bg-cover" >
+<div class="h-vh70 lg:h-vh90 flex justify-center items-center -mt-12 md:bg-index-banner bg-index-banner-sm bg-cover">
   <div class="container ">
     <!-- btn -->
     <div class="flex  justify-end mb-5">
@@ -46,12 +46,17 @@ current: index
 
 <div class="container ">
   <!-- 精選民宿 -->
-  <div class="mb-6 mt-12">
-    <h2>精選民宿</h2>
+  <div class="mb-6 mt-12 md:flex justify-between ">
+    <div class="box md:flex items-center">
+      <h2>精選民宿</h2>
+      <div class="text-light pt-2 ml-5 hidden md:block">
+        <p class=" leading-none text-black font-semibold">查看特色精選民宿</p>
+        <p class=" leading-5">Featured homes recommended for you</p>
+      </div>
+    </div>
     <div class="flex justify-between">
       <div class="text-light">
-        <p>查看特色精選民宿</p>
-        <p class="hidden md:block">Featured homes recommended for you</p>
+        <p class="md:hidden ">查看特色精選民宿</p>
       </div>
       <div class="flex items-center">
         <i class="fa-solid fa-shuffle mr-3"></i>
@@ -59,6 +64,7 @@ current: index
       </div>
     </div>
   </div>
+
   <div class="sm:grid grid-cols-12  gap-6 ">
     <div class="box sm:col-span-6 lg:col-span-3 mb-4 ">
       <img class="rounded-3xl" src="./assets/images/house (1).jpg" alt="">
@@ -91,11 +97,11 @@ current: index
   </div>
 
   <!-- 熱門地點 -->
-  <div class="mb-6 text-center mt-12">
+  <div class="mb-6 text-center mt-12 md:text-left md:flex items-center ">
     <h2>熱門地點</h2>
-    <div class="text-light">
-      <p>台灣熱門地點</p>
-      <p class="hidden md:block">Featured homes recommended for you</p>
+    <div class="text-light md:pt-2 md:ml-5">
+      <p class="md:text-black md:font-semibold md:leading-none">台灣熱門地點</p>
+      <p class="hidden md:block leading-5">Top destinations in Taiwan</p>
     </div>
   </div>
   <div class="sm:grid grid-cols-12  gap-6 ">
