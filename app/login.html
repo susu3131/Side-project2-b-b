@@ -1,8 +1,30 @@
 ---
 title: 首頁
-layout: ./app/layout.ejs
+layout: ./app/login.ejs
 engine: ejs
 current: index
 ---
 
-<p class="text-3xl font-bold underline"> 我是登入頁</p>
+<div class="container flex flex-col items-center ">
+  <div class="md:flex items-center">
+    <div class="flex">
+      <i class="fa-solid fa-house mr-3"></i>
+      <p>回到首頁</p>
+    </div>
+    <h1 class="text-32 md:text-48"> Login 會員 / 房東登入</h1>
+  </div>
+
+  <from>
+    <label for="username " class="block">Username</label>
+    <input type="text" name="username" id="username" placeholder="Susususu43691  輸入您的使用者帳號"
+      class="text-light rounded-3xl px-6 py-2">
+    <label for="password" class="block">Password</label>
+    <input type="password" name="password" id="password" placeholder="************  輸入您的使用者密碼"
+      class="text-light rounded-3xl px-6 py-2">
+    <button class="btn-join-1 bg-primary">Log in 登入</button>
+    <div class="flex">
+      <p>忘記使用者帳號<span>/</span></p>
+      <p>忘記密碼</p>
+    </div>
+  </from>
+</div>
