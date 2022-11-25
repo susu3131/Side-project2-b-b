@@ -6,25 +6,26 @@ current: index
 ---
 
 <div class="container flex flex-col md:items-center md:text-center">
-  <div class="md:flex items-center mb-8  w-full ">
+  <!-- tittle -->
+  <div class="items-center w-full mb-8 md:flex ">
     <div class="flex items-center mb-4 md:mb-0">
-      <i class="fa-solid fa-house mr-3"></i>
+      <i class="mr-3 fa-solid fa-house"></i>
       <a href="index.html">
         <p>回到首頁</p>
       </a>
     </div>
     <h1 class="text-32 md:text-48 md:grow md:pr-16"> Login 會員登入</h1>
   </div>
-
+  <!-- 登入區塊 -->
   <from class="md:w-3/5">
-    <label for="username " class="block ml-2 mb-1 md:text-left md:text-20">Username</label>
+    <label for="username " class="block mb-1 ml-2 md:text-left md:text-20">Username</label>
     <input type="text" name="username" id="username" placeholder="輸入您的使用者帳號"
-      class="text-light rounded-3xl px-6 py-2 w-full md:py-5 md:px-8 md:rounded-36 focus:border-primary focus:ring-1 focus:ring-primary ">
-    <label for="password" class="block ml-2 mt-6 mb-1 md:text-left  md:text-20 md:mt-12">Password</label>
+      class="w-full px-6 py-2 text-light rounded-3xl md:py-5 md:px-8 md:rounded-36 focus:border-primary focus:ring-1 focus:ring-primary ">
+    <label for="password" class="block mt-6 mb-1 ml-2 md:text-left md:text-20 md:mt-12">Password</label>
     <input type="password" name="password" id="password" placeholder="輸入您的使用者密碼"
-      class="text-light rounded-3xl px-6 py-2 w-full md:py-5 md:px-8 md:rounded-36 focus:border-primary focus:ring-1 focus:ring-primary">
+      class="w-full px-6 py-2 text-light rounded-3xl md:py-5 md:px-8 md:rounded-36 focus:border-primary focus:ring-1 focus:ring-primary">
     <div class="text-center">
-      <button class="btn-send bg-primary mt-8 md:px-24 md:py-4 md:text-24 md:rounded-36 md:mt-12">Log in 登入</button>
+      <button class="mt-8 btn-send bg-primary md:px-24 md:py-4 md:text-24 md:rounded-36 md:mt-12">Log in 登入</button>
       <div class="flex justify-center mt-2">
         <p>忘記使用者帳號<span class="ml-2 mr-2">/</span></p>
         <p>忘記密碼</p>
@@ -32,4 +33,14 @@ current: index
     </div>
 
   </from>
+  <div class="mt-12 card pb-12">
+    <div class="relative mb-12">
+      <p class="absolute text-white right-6 top-5 text-20 font-semibold">加入我們</p>
+      <img src="./assets/images/bannersm-1.jpg" alt="">
+    </div>
+    <h2 class="text-32 text-primary ">Join me<span class="block text-24 font-semibold">成為房東 賺取潛在收入</span></h2>
+    <p class="mt-20">加入B&B 民宿網 出租您的房源！</p>
+    <button class="btn-send mt-3 bg-secondary">了解詳情</button>
+  </div>
+
 </div>
