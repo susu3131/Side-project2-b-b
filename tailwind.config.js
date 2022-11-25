@@ -28,7 +28,7 @@ module.exports = {
         'star': '#FFC700', //黃色
         'light': '#8A8888', //淺色文字
         'dark-blue': '#116D94',//深藍
-        'light-blue': '#C1E1EF',//深藍
+        'light-blue': '#C1E1EF',//淺藍
         'bg-color': '#EEF6FA', 
       },
       fontSize: {

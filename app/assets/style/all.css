@@ -44,6 +44,9 @@
   .btn-send{
     @apply bg-primary rounded-3xl border-black px-12 py-2 text-white
   }
+  .btn-tag{
+    @apply  rounded-3xl  px-4 py-1 text-primary  ring-2 ring-dark-blue md:py-5 md:px-8 md:rounded-36 md:text-20 text-14 font-semibold
+  }
 }
 
 @layer utilities{
