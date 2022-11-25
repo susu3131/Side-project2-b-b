@@ -41,6 +41,9 @@
   .btn-list{
     @apply bg-primary rounded-3xl px-8 py-2 text-white
   }
+  .btn-send{
+    @apply bg-primary rounded-3xl border-black px-12 py-2 text-white
+  }
 }
 
 @layer utilities{

@@ -5,26 +5,31 @@ engine: ejs
 current: index
 ---
 
-<div class="container flex flex-col items-center ">
-  <div class="md:flex items-center">
-    <div class="flex">
+<div class="container flex flex-col md:items-center md:text-center">
+  <div class="md:flex items-center mb-8  w-full ">
+    <div class="flex items-center mb-4 md:mb-0">
       <i class="fa-solid fa-house mr-3"></i>
-      <p>回到首頁</p>
+      <a href="index.html">
+        <p>回到首頁</p>
+      </a>
     </div>
-    <h1 class="text-32 md:text-48"> Login 會員 / 房東登入</h1>
+    <h1 class="text-32 md:text-48 md:grow md:pr-16"> Login 會員登入</h1>
   </div>
 
-  <from>
-    <label for="username " class="block">Username</label>
-    <input type="text" name="username" id="username" placeholder="Susususu43691  輸入您的使用者帳號"
-      class="text-light rounded-3xl px-6 py-2">
-    <label for="password" class="block">Password</label>
-    <input type="password" name="password" id="password" placeholder="************  輸入您的使用者密碼"
-      class="text-light rounded-3xl px-6 py-2">
-    <button class="btn-join-1 bg-primary">Log in 登入</button>
-    <div class="flex">
-      <p>忘記使用者帳號<span>/</span></p>
-      <p>忘記密碼</p>
+  <from class="md:w-3/5">
+    <label for="username " class="block ml-2 mb-1 md:text-left md:text-20">Username</label>
+    <input type="text" name="username" id="username" placeholder="輸入您的使用者帳號"
+      class="text-light rounded-3xl px-6 py-2 w-full md:py-5 md:px-8 md:rounded-36 focus:border-primary focus:ring-1 focus:ring-primary ">
+    <label for="password" class="block ml-2 mt-6 mb-1 md:text-left  md:text-20 md:mt-12">Password</label>
+    <input type="password" name="password" id="password" placeholder="輸入您的使用者密碼"
+      class="text-light rounded-3xl px-6 py-2 w-full md:py-5 md:px-8 md:rounded-36 focus:border-primary focus:ring-1 focus:ring-primary">
+    <div class="text-center">
+      <button class="btn-send bg-primary mt-8 md:px-24 md:py-4 md:text-24 md:rounded-36 md:mt-12">Log in 登入</button>
+      <div class="flex justify-center mt-2">
+        <p>忘記使用者帳號<span class="ml-2 mr-2">/</span></p>
+        <p>忘記密碼</p>
+      </div>
     </div>
+
   </from>
 </div>

@@ -19,8 +19,11 @@ module.exports = {
     },
     extend: {
       //extend 自行客製新增樣式
+      borderRadius: {
+        '36': '36px',
+      },
       colors: {
-        'primary': '#2488B2', //主色
+        'primary': '#1A8EC2', //主色
         'secondary': '#EC7B7B', //副色
         'star': '#FFC700', //黃色
         'light': '#8A8888', //淺色文字
