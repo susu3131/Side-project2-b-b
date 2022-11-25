@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     //theme 下覆蓋原tailwind樣式
     screens: {
-      'sm': '640px',
+      'sm': '576px',
       'md': '768px',
       'lg': '992px',
       'xl': '1280px',
@@ -53,7 +53,7 @@ module.exports = {
       backgroundImage: {
         'index-banner-sm': "url('/assets/images/bannersm.jpg')",
         'index-banner': "url('/assets/images/banner.jpg')",
-        
+        'join-banner': "url('/assets/images/banner-1.jpg')",
         
       }
     },
