@@ -32,21 +32,26 @@
   .card{
     @apply rounded-3xl bg-white text-center
   }
+  /* header btn */
   .btn-join{
-    @apply border rounded-3xl border-light px-6 py-1
+    @apply border rounded-3xl border-light px-6 py-1 
   }
+  /* header btn */
   .btn-join-1{
     @apply bg-secondary rounded-3xl border-black px-6 py-1 text-white
   }
+  /* 搜尋入住、退房...btn */
   .btn-list{
     @apply bg-primary rounded-3xl px-8 py-2 text-white
   }
+  /* 送出、登入 */
   .btn-send{
     @apply bg-primary rounded-3xl border-black px-12 py-2 text-white
   }
+  /* 小按鈕、篩選按鈕 */
   .btn-tag{
-    @apply  rounded-3xl  px-4 py-1 text-primary  ring-2 ring-dark-blue md:py-5 md:px-8 md:rounded-36 md:text-20 text-14 font-semibold
-  }
+    @apply  rounded-3xl  px-4 py-1 text-primary  ring-1 ring-dark-blue md:py-4 md:px-8 md:rounded-36 md:text-20 text-14 font-semibold
+  } 
 }
 
 @layer utilities{
