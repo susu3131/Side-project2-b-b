@@ -29,6 +29,9 @@
 
 
 @layer components {
+  .star{
+    @apply left-2/4 top-2/4 -translate-x-1/2 -translate-y-1/2 pt-1
+  }
   .card{
     @apply rounded-3xl bg-white text-center
   }
@@ -55,5 +58,7 @@
 }
 
 @layer utilities{
-
+  .font{
+    font-family: 'Noto Serif TC', serif;
+  }
 }
