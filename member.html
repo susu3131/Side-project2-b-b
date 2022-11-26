@@ -19,43 +19,81 @@
     <a class=" hover:animate-spin duration-300" href="index.html">
       <img src="./assets/images/logo.png" width="50" alt="">
     </a>
-    <div class="flex">
-      <a href="join.html">
-        <button class="btn-join hidden md:block mr-3">註冊/加入</button>
-      </a>
-      <a href="">
-        <button class="btn-join-1 hidden md:block ">成為房東</button>
-      </a>
+    <div class="flex items-center">
+      <p class="btn-join-1 hidden md:block">最新優惠</p>
+      <div class="flex items-center bg-primary rounded-3xl px-3 py-2 md:px-8 md:py-2 md:rounded-36 text-white  md:ml-6 md:mr-5">
+        <img src="./assets/images/male.png" alt="" width="35" class="mr-2 font-semibold ml-1 md:mr-4 md:w-12">
+        <p class="mr-2 text-14 md:text-20 md:mr-4">house3125</p>
+        <i class="fa-solid fa-envelope mr-1 text-20 md:text-24 "></i>
+      </div>
+      <i class="fa-solid fa-bars mr-3 text-32 ml-3"></i>
 
-      <a href="login.html" class="flex text-xl font-semibold  items-center ml-8">        
-        <i class="fa-solid fa-circle-user mr-2"></i>
-        <p>Login</p>
-      </a>
-      
     </div>
 
 
   </header>
 
   <div
-    class=" bg-bg-color h-screen rounded-tl-[20px] rounded-br-[50px] md:rounded-tl-[100px] md:rounded-br-[100px] lg:rounded-tl-[130px] lg:rounded-br-[130px] py-20">
-    
-<div class="flex">
-  <i class="fa-solid fa-address-book"></i>
-  <h1>會員中心</h1>
+    class=" bg-bg-color  rounded-tl-[20px] rounded-br-[50px] md:rounded-tl-[100px] md:rounded-br-[100px] lg:rounded-tl-[130px] lg:rounded-br-[130px] py-20">
+    <div class="container">
+  <!-- tittle -->
+  <div class="flex items-center justify-between mb-8">
+    <div class="flex items-center text-32 md:text-48">
+      <i class="fa-solid fa-address-book"></i>
+      <h1 class="text-32 md:text-48 ml-4">會員中心</h1>
+    </div>
+
+    <div class="box">
+      <div class="flex items-center">
+        <i class="fa-solid fa-house"></i>
+        <p class="ml-3">回到首頁</p>
+      </div>
+
+
+      <div class="flex items-center">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <p class="ml-3">搜尋民宿</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 內容 -->
+  <div class="border ring-2 rounded-36 ring-black ">
+    <div class="sm:grid sm:grid-cols-12 ">
+      <!-- list -->
+      <div class="flex sm:block sm:col-span-4 md:col-span-3 justify-center mt-4 mx-4 sm:mt-0 sm:mx-0 sm:h-full sm:bg-primary  sm:rounded-l-36">
+        <div class="bg-dark-blue   rounded-3xl px-6 py-3 sm:rounded-none sm:rounded-tl-36 sm:py-6">
+          <img src="./assets/images/logowhite.png" alt="" class="sm:mx-auto md:w-[70px]" width="50px">
+        </div>
+        <ul class="flex flex-wrap  items-center sm:block text-center  ml-1  sm:ml-0 sm:text-white ">
+          <p class="hidden sm:block sm:mt-8 sm:mb-10">Welcome </p>
+          <li class=" sm:mb-3 md:text-20 w-1/2 sm:w-full hover:bg-primary hover:text-white hover:rounded-3xl hover:scale-105 sm:hover:scale- sm:hover:bg-pr duration-300">我的帳號</li>
+          <li class="sm:mb-3 md:text-20 w-1/2 sm:w-full hover:bg-primary hover:text-white hover:rounded-3xl hover:scale-105 sm:hover:scale-100 sm:hover:bg-bg-color duration-300">訂房紀錄</li>
+          <li class="sm:mb-3 md:text-20 w-1/2 sm:w-full hover:bg-primary hover:text-white hover:rounded-3xl hover:scale-105 sm:hover:scale-100 sm:hover:bg-bg-color duration-300">評分/留言</li>
+          <li class="sm:mb-3 md:text-20 w-1/2 sm:w-full hover:bg-primary hover:text-white hover:rounded-3xl hover:scale-105 sm:hover:scale-100 sm:hover:bg-bg-color duration-300">收藏民宿</li>
+        </ul>
+      </div>
+      <hr class="border border-black mt-4 w-4/5 mx-auto sm:hidden">
+      <!-- 我的帳號 -->
+      <div class=" text-center mt-4 sm:mx-auto sm:col-span-8 md:col-span-9">
+        <h1 class="mb-2">我的帳號</h1>
+        <p class="mb-5">帳號狀態</p>
+        <img src="./assets/images/male.png" alt="" width="150px" class="mx-auto mb-6">
+        <button class="btn-send mb-8">變更圖片</button>
+        <!-- 會員帳號密碼 -->
+        <div class="flex mb-3 justify-center">
+          <p class="">使用者帳號</p>
+          <p class="ml-8">Susususu43691</p>
+        </div>
+        <div class="flex mb-8 justify-center">
+          <p>使用者密碼</p>
+          <p class="ml-8">***************</p>
+        </div>
+        <button class="btn-list bg-bg-color ring-primary ring-2 text-primary mb-8 ">修改密碼</button>
+      </div>
+    </div>
+  </div>
 </div>
-
-<div class="flex">
-  <i class="fa-solid fa-house"></i>
-  <p>回到首頁</p>
-</div>
-
-
-<div class="flex">
-  <i class="fa-solid fa-magnifying-glass"></i>
-  <p>搜尋民宿</p>
-</div>
-
   </div>
 
 
