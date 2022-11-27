@@ -1,5 +1,15 @@
 console.log('Hello!');
 
-$(document).ready(() => {
-  console.log('HesSchool Hello!');
-});
+//功能尚未開放
+
+
+const notOpen = document.querySelector(".notopen")
+
+
+function notOpenClick() {
+  
+  notOpen.addEventListener("click", function (e) {
+    alert("此功能尚未開放")
+
+  })
+}
