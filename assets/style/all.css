@@ -780,6 +780,12 @@ select {
 .relative {
   position: relative;
 }
+.left-10 {
+  left: 2.5rem;
+}
+.top-16 {
+  top: 4rem;
+}
 .right-20 {
   right: 5rem;
 }
@@ -788,9 +794,6 @@ select {
 }
 .left-\[100px\] {
   left: 100px;
-}
-.top-16 {
-  top: 4rem;
 }
 .right-6 {
   right: 1.5rem;
@@ -835,11 +838,17 @@ select {
 .mr-4 {
   margin-right: 1rem;
 }
-.mt-5 {
-  margin-top: 1.25rem;
+.mr-6 {
+  margin-right: 1.5rem;
+}
+.ml-3 {
+  margin-left: 0.75rem;
 }
 .ml-4 {
   margin-left: 1rem;
+}
+.mt-5 {
+  margin-top: 1.25rem;
 }
 .mb-10 {
   margin-bottom: 2.5rem;
@@ -874,6 +883,9 @@ select {
 .mr-3 {
   margin-right: 0.75rem;
 }
+.ml-10 {
+  margin-left: 2.5rem;
+}
 .ml-8 {
   margin-left: 2rem;
 }
@@ -903,9 +915,6 @@ select {
 }
 .ml-1 {
   margin-left: 0.25rem;
-}
-.ml-3 {
-  margin-left: 0.75rem;
 }
 .mb-5 {
   margin-bottom: 1.25rem;
@@ -1025,11 +1034,11 @@ select {
 .rounded-\[30px\] {
   border-radius: 30px;
 }
-.rounded-3xl {
-  border-radius: 1.5rem;
-}
 .rounded-md {
   border-radius: 0.375rem;
+}
+.rounded-3xl {
+  border-radius: 1.5rem;
 }
 .rounded-full {
   border-radius: 9999px;
@@ -1056,8 +1065,15 @@ select {
 .border-0 {
   border-width: 0px;
 }
+.border-4 {
+  border-width: 4px;
+}
 .border {
   border-width: 1px;
+}
+.border-red-100 {
+  --tw-border-opacity: 1;
+  border-color: rgb(254 226 226 / var(--tw-border-opacity));
 }
 .border-primary {
   --tw-border-opacity: 1;
@@ -1108,6 +1124,14 @@ select {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
 }
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
 .px-12 {
   padding-left: 3rem;
   padding-right: 3rem;
@@ -1148,17 +1172,9 @@ select {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
 }
-.py-20 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-}
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
 }
 .pb-1 {
   padding-bottom: 0.25rem;
@@ -1208,10 +1224,6 @@ select {
 }
 .text-24 {
   font-size: 24px;
-}
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
 }
 .text-xl {
   font-size: 1.25rem;
@@ -1263,10 +1275,6 @@ select {
 .text-light {
   --tw-text-opacity: 1;
   color: rgb(138 136 136 / var(--tw-text-opacity));
-}
-.underline {
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
 }
 .ring-2 {
   --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
@@ -1536,6 +1544,11 @@ select {
   .sm\:py-2 {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+  }
+
+  .sm\:py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
   }
 
   .sm\:py-6 {
@@ -1953,12 +1966,34 @@ select {
     left: -5rem;
   }
 
+  .xl\:left-12 {
+    left: 3rem;
+  }
+
+  .xl\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .xl\:block {
     display: block;
   }
 
   .xl\:w-2\/5 {
     width: 40%;
+  }
+
+  .xl\:w-11\/12 {
+    width: 91.666667%;
+  }
+
+  .xl\:w-5\/6 {
+    width: 83.333333%;
+  }
+
+  .xl\:py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
   }
 
   .xl\:text-40 {
