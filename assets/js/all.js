@@ -2,7 +2,7 @@
 
 console.log('Hello!'); //功能尚未開放
 
-var notOpen = document.querySelector(".notopen");
+var notOpen = document.querySelector("notopen");
 
 function notOpenClick() {
   notOpen.addEventListener("click", function (e) {
