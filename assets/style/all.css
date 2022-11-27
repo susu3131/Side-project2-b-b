@@ -1105,7 +1105,7 @@ select {
   background-color: rgb(26 142 194 / var(--tw-bg-opacity));
 }
 .bg-index-banner-sm {
-  background-image: url('/Side-project2-bnb/assets/images/bannersm.jpg');
+  background-image: url('../images/bannersm.jpg');
 }
 .bg-cover {
   background-size: cover;
@@ -1528,7 +1528,7 @@ select {
   }
 
   .sm\:bg-join-banner {
-    background-image: url('/Side-project2-bnb/assets/images/banner-1.jpg');
+    background-image: url('../images/banner-1.jpg');
   }
 
   .sm\:bg-cover {
@@ -1719,7 +1719,7 @@ select {
   }
 
   .md\:bg-index-banner {
-    background-image: url('/Side-project2-bnb/assets/images/banner.jpg');
+    background-image: url('../images/banner.jpg');
   }
 
   .md\:p-2 {
