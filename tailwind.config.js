@@ -51,9 +51,9 @@ module.exports = {
         'vh90': '90vh',
       },
       backgroundImage: {
-        'index-banner-sm': "url('/assets/images/bannersm.jpg')",
-        'index-banner': "url('/assets/images/banner.jpg')",
-        'join-banner': "url('/assets/images/banner-1.jpg')",
+        'index-banner-sm': "url('../images/bannersm.jpg')",
+        'index-banner': "url('../images/banner.jpg')",
+        'join-banner': "url('../images/banner-1.jpg')",
         
       }
     },
